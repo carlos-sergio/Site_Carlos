@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configuração do documento -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página -->
+    <title>Carlos Sérgio</title>
+    
+    <!-- Links para estilos externos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="rede.png" type="image/x-icon">
+
+    <!-- Estilos CSS adicionais -->
+    <style>
+        /* Estilos personalizados */
+        .home {
+            background-color: #f2f2f2;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .btn-group {
+            margin-top: 20px;
+        }
+
+        .social-icons {
+            margin-top: 30px;
+        }
+
+        /* Estilos adicionais para as seções */
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        section h1 {
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .project {
+            width: 300px;
+            margin: 0 auto 30px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .project h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho da Página -->
+    <header>
+        <!-- Logo -->
+        <h2 class="logo"><span>C</span>arlos.</h2>
+        
+        <!-- Navegação -->
+        <nav class="navigation">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <!-- Botão de Ação -->
+        <a href="#" class="btn-talk">Let's Talk</a>
+    </header>
+    
+    <!-- Seção Inicial (Home) -->
+    <section class="home">
+        <div class="content">
+            <!-- Título e nome -->
+            <h2>Olá, eu sou <span>Carlos Sérgio</span></h2>
+            
+            <!-- Profissão (será alterada dinamicamente pelo script) -->
+            <h4 id="profession">Java Developer</h4>
+            
+            <!-- Parágrafo de descrição -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A esse totam provident voluptas similique.
+                Impedit incidunt atque recusandae rem quam.</p>
+            
+            <!-- Grupo de botões -->
+            <div class="btn-group">
+                <a href="https://wa.me/+5599981113074" target="_blank">Hire Me</a>
+                <a href="portifolio/portifolio.html" target="_blank">See Projects</a>
+            </div>
+            
+            <!-- Ícones de redes sociais -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/carlos-s%C3%A9rgio-7b8596143/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/+5599981113074" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:contato.carlossergio@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="https://github.com/carlos-sergio" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Seção Sobre (About) -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <!-- Coloque aqui o conteúdo da seção "Sobre" da primeira página -->
+    </section>
+
+    <!-- Seção Experiência (Experience) -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <!-- Coloque aqui o conteúdo da seção "Experiência" da primeira página -->
+    </section>
+
+    <!-- Seção Projetos (Projects) -->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <!-- Coloque aqui o conteúdo da seção "Projetos" da primeira página -->
+    </section>
+
+    <!-- Seção Contato (Contact) -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <!-- Coloque aqui o conteúdo da seção "Contato" da primeira página -->
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright © 2023 Carlos Sérgio. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script para alternar a profissão -->
+    <script src="scriptPt.js"></script>
+</body>
+</html>
